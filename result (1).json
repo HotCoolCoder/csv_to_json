@@ -1,0 +1,177 @@
+[{
+		"id": "efbf7288-30ba-4dd1-8705-da64c8ebe460",
+		"aggregate": {
+			"id": "HH-1",
+			"tag": "HOUSEHOLD_ID",
+			"currency": "USD",
+			"benchmark": {
+				"id": "BENCH-1",
+				"currency": "USD",
+				"components": {
+					"id": "SP-500",
+					"identifiers": {
+						"cusip": "67066G104",
+						"sedol": 2379504,
+						"isin": "US67066G1040",
+						"ric": "NVDA.OQ",
+						"clientId": "XXXX"
+					},
+					"weight": 1
+				}
+			},
+			"benchmarkRef": {
+				"id": "BENCH-1",
+				"tag": "benchmark"
+			},
+			"supplement": {
+				"sleeveInfo": {
+					"tag": "SMA_ID",
+					"value": "BLK123",
+					"benchmark": {
+						"id": "BENCH-1",
+						"currency": "USD",
+						"components": {
+							"id": "SP-500",
+							"identifiers": {
+								"cusip": "67066G104",
+								"sedol": 2379504,
+								"isin": "US67066G1040",
+								"ric": "NVDA.OQ",
+								"clientId": "XXXX"
+							},
+							"weight": 1
+						}
+					},
+					"benchmarkRef": {
+						"id": "BENCH-1",
+						"tag": "benchmark"
+					},
+					"fees": {
+						"category": "Client",
+						"subcategory": "Dues",
+						"startYear": 0,
+						"endYear": 15,
+						"minimumPositionMarketValue": 100,
+						"maximumPositionMarketValue": 200,
+						"amount": 4.5,
+						"paymentMethod": "P",
+						"percentMethod": "P",
+						"eventType": "E"
+					}
+				}
+			},
+			"portfolios": {
+				"id": "ACCT-1",
+				"currency": "USD",
+				"positions": {
+					"id": "dd1ea48f-3430-4660-9ce4-adf9be1d4816",
+					"identifiers": {
+						"cusip": "67066G104",
+						"sedol": 2379504,
+						"isin": "US67066G1040",
+						"ric": "NVDA.OQ",
+						"clientId": "XXXX"
+					},
+					"proxyIdentifiers": {
+						"cusip": "67066G104",
+						"sedol": 2379504,
+						"isin": "US67066G1040",
+						"ric": "NVDA.OQ",
+						"clientId": "XXXX"
+					},
+					"quantity": 250,
+					"marketValue": 22728.09,
+					"notionalMarketValue": 29768.27
+				},
+				"openLots": {
+					"id": "69cf28fe-a525-451d-8979-9bbe7922bc49",
+					"positionId": "dd1ea48f-3430-4660-9ce4-adf9be1d4816",
+					"purchaseDate": "2020-03-22",
+					"quantity": 250,
+					"costBasis": 20000
+				},
+				"closedLots": {
+					"identifiers": {
+						"cusip": "67066G104",
+						"sedol": 2379504,
+						"isin": "US67066G1040",
+						"ric": "NVDA.OQ",
+						"clientId": "XXXX"
+					},
+					"purchaseDate": "2020-03-22",
+					"closedDate": "2020-03-22",
+					"realizedGainOrLoss": 3417.42
+				},
+				"benchmark": {
+					"id": "BENCH-1",
+					"currency": "USD",
+					"components": {
+						"id": "SP-500",
+						"identifiers": {
+							"cusip": "67066G104",
+							"sedol": 2379504,
+							"isin": "US67066G1040",
+							"ric": "NVDA.OQ",
+							"clientId": "XXXX"
+						},
+						"weight": 1
+					}
+				},
+				"benchmarkRef": {
+					"id": "BENCH-1",
+					"tag": "benchmark"
+				},
+				"supplement": {
+					"sleeveInfo": {
+						"tag": "SMA_ID",
+						"value": "BLK123",
+						"benchmark": {
+							"id": "BENCH-1",
+							"currency": "USD"
+						},
+						"benchmarkRef": {
+							"id": "BENCH-1",
+							"tag": "benchmark"
+						},
+						"fees": {
+							"category": "Client",
+							"subcategory": "Dues",
+							"startYear": 0,
+							"endYear": 15,
+							"minimumPositionMarketValue": 100,
+							"maximumPositionMarketValue": 200,
+							"amount": 4.5,
+							"paymentMethod": "P",
+							"percentMethod": "P",
+							"eventType": "E"
+						}
+					}
+				},
+				"origin": "SYSTEM"
+			},
+			"origin": "SYSTEM"
+		},
+		"parameters": {
+			"addCash": 10000,
+			"useBuyList": "US-ETF"
+		},
+		"buyList": {
+			"portfolioId": "ACCT-1",
+			"positionId": "dd1ea48f-3430-4660-9ce4-adf9be1d4816",
+			"identifiers": {
+				"cusip": "67066G104",
+				"sedol": 2379504,
+				"isin": "US67066G1040",
+				"ric": "NVDA.OQ",
+				"clientId": "XXXX"
+			},
+			"price": 522.72
+		},
+		"sleeveTags": "SMA_ID",
+		"simulatedPerformanceUserInputs": {
+			"feeOverride": 0.01
+		}
+	},{
+		"sleeveTags": "CONTRACT_ID"
+	}
+]

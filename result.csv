@@ -1,0 +1,3 @@
+﻿"taxSensitivity","federalLongTermTaxRate","federalShortTermTaxRate","stateTaxRate","cashRestriction","securityRestrictions__cusip","securityRestrictions__ticker","securityRestrictions__description","securityRestrictions__securityRestrictionType","sectorRestrictions__gicsSubIndustryCode","sectorRestrictions__gicsSubIndustryDescription","shortTermRealizedGainBudgetAmount","longTermRealizedGainBudgetAmount","yearToDateShortTermRealizedGainLoss","yearToDateLongTermRealizedGainLoss"
+"veryhigh","0","0.1","0.2","0.1","037833100","AAPL","Apple Inc.","SellAllExisting","10010101","Oil & Gas Drilling","0.10","1000","0","0"
+"","","","","","03783100","AAPL","Apple Inc.","SellAllExisting","10010122","Oil & Gas Drilling","","","",""

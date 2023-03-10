@@ -1,0 +1,62 @@
+[{
+	"taxSensitivity": "veryhigh",
+	"federalLongTermTaxRate": 0,
+	"federalShortTermTaxRate": 0.1,
+	"stateTaxRate": 0.2,
+	"cashRestriction": 0.1,
+	"securityRestrictions": [{
+			"cusip": "037833100",
+			"ticker": "AAPL",
+			"description": "Apple Inc.",
+			"securityRestrictionType": "SellAllExisting"
+		},{
+			"cusip": "03783100",
+			"ticker": "AAPL",
+			"description": "Apple Inc.",
+			"securityRestrictionType": "SellAllExisting"
+		}
+	],
+	"sectorRestrictions": [{
+			"gicsSubIndustryCode": 10010101,
+			"gicsSubIndustryDescription": "Oil & Gas Drilling"
+		},{
+			"gicsSubIndustryCode": 10010122,
+			"gicsSubIndustryDescription": "Oil & Gas Drilling"
+		}
+	],
+	"shortTermRealizedGainBudgetAmount": 0.10,
+	"longTermRealizedGainBudgetAmount": 1000,
+	"yearToDateShortTermRealizedGainLoss": 0,
+	"yearToDateLongTermRealizedGainLoss": 0
+},
+{
+	"taxSensitivity": "veryhigh",
+	"federalLongTermTaxRate": 0,
+	"federalShortTermTaxRate": 0.1,
+	"stateTaxRate": 0.2,
+	"cashRestriction": 0.1,
+	"securityRestrictions": [{
+			"cusip": "037833100",
+			"ticker": "AAPL",
+			"description": "Apple Inc.",
+			"securityRestrictionType": "SellAllExisting"
+		},{
+			"cusip": "03783100",
+			"ticker": "AAPL",
+			"description": "Apple Inc.",
+			"securityRestrictionType": "SellAllExisting"
+		}
+	],
+	"sectorRestrictions": [{
+			"gicsSubIndustryCode": 10010101,
+			"gicsSubIndustryDescription": "Oil & Gas Drilling"
+		},{
+			"gicsSubIndustryCode": 10010122,
+			"gicsSubIndustryDescription": "Oil & Gas Drilling"
+		}
+	],
+	"shortTermRealizedGainBudgetAmount": 0.10,
+	"longTermRealizedGainBudgetAmount": 1000,
+	"yearToDateShortTermRealizedGainLoss": 0,
+	"yearToDateLongTermRealizedGainLoss": 0
+}]
